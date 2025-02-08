@@ -1,0 +1,50 @@
+.heading{
+    background: linear-gradient(to left, crimson,aqua,pink,violet);
+    text-align: center;
+    padding: 5px;
+}
+.heading:hover{
+    background: linear-gradient(to right,crimson,aqua,pink,violet);
+}
+.main{
+    display: flex;
+    /* flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: column; */
+    justify-content: space-between;
+}
+img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.d1{
+    width: 20%;
+    border: 2px solid black;
+
+    
+    
+}
+.d1:hover{
+    box-shadow: 0 0 10px rgb(32, 32, 245);
+    width: 25%;
+    
+    /* transition: scaley(1.3); */
+    transform: scale(1.3);
+
+}
+h3{
+    color: rgb(149, 149, 239);
+}
+
+button{
+    width: 70%;
+    height: 35px;
+    font-size: 115%;
+    outline: none;
+    background: linear-gradient( to left,crimson,pink,blue);
+    background: linear-gradient( to right,yellow,violet,skyblue);
+    border-radius: 15px;
+    color: white;
+}
